@@ -26,7 +26,7 @@ The full tutorials are provided as example notebooks below.
 ## Example Notebooks
 **System** | **Data Source** | **Notebook File** 
 ------------| -------------- | ------------
-Toggle-switch | [Simulation Data](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/example_toggle.ipynb) in this study | [notebook](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/example_toggle_iteration.ipynb) 
+Toggle-switch | [Simulation Data](https://github.com/cliffzhou92/scTT/blob/main/data/toggle_switch/example_toggle.ipynb) in this study | [notebook](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/example_toggle_iteration.ipynb) 
 EMT circut | [Simulation Data](https://github.com/cliffzhou92/scTT/tree/main/data/emt_sim/Generating_Dataset.ipynb) in this study |[notebook](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/example_emt_circuit.ipynb)
 EMT of A549 cell lines |[Cook et al.](https://www.nature.com/articles/s41467-020-16066-2)|[notebook](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/example-emt.ipynb)
 Erythroid lineage in mouse gastrulation |[Pijuan-Sala et al.](https://www.nature.com/articles/s41586-019-0933-9) and [scVelo](https://scvelo.readthedocs.io/scvelo.datasets.gastrulation_erythroid/)|[notebook](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/example-mouse_eryth.ipynb)
