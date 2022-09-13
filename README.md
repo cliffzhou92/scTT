@@ -22,3 +22,14 @@ st.plot_tensor(adata, adata_aggr,  basis = 'trans_coord',list_attractor = [0,1,2
 st.plot_top_genes(adata, top_genes = 10) # plot the U-S diagram of top genes with highest multi-stability score
 
 ```
+The full tutorials are provided as example notebooks below.
+## Example Notebooks
+**System** | **Data Source** | **Notebook File** 
+------------| -------------- | ------------
+Toggle-switch | Simulation Data in this study | [notebook](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/example_toggle.ipyn
+b) 
+EMT circut | Simulation Data in this study |[notebook](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/example_emt_circuit
+.ipynb)
+EMT of A549 cell lines |[Pastushenko et al.](https://www.nature.com/articles/s41586-018-0040-3)|[notebook](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/example-emt.ipynb)
+Enthroid lineage in mouse gastrulation |[Bargaje et al.](https://www.pnas.org/content/early/2017/02/03/1621412114)|[notebook](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/example-mouse_eryth.ipynb)
+Adult human bone marrow | [Setty et al.](https://www.nature.com/articles/s41587-019-0068-4) | [notebook](https://github.com/cliffzhou92/scTT/blob/main/example_notebooks/examplebone_marrow.ipynb)
