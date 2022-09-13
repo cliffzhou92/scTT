@@ -6,7 +6,7 @@ We present a single-cell transition tensor (scTT) method based on multi-stable a
 <img src="https://github.com/cliffzhou92/scTT/blob/main/img/figure_scheme.png" width="700">
 
 ## Basic Usage
-```
+```python
 import sctt as st
 adata.obs['attractor'] =  # initialize the attractor, can use leiden or original annotation
 adata_aggr = st.dynamical_iteration(adata,n_states =K, n_iter = 20, weight_connectivities = 0.5, n_neighbors = 100, n_components = 20,thresh_ms_gene = 0,thresh_entropy = 0.1)
