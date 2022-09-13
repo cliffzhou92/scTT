@@ -17,5 +17,8 @@ adata_aggr = st.dynamical_iteration(adata,n_states =K, n_iter = 20, weight_conne
 # n_neighbors: number of neghbors used to constrcut cellular random walk, default is 100
 # n_component: number of eigen components to use in GPCCA decomposion, default is 20
 # thresh_ms_gene: the threshold of minimum multi-stability score of genes to include when constructing random walk, default is 0
+st.infer_lineage(adata,si=4,sf=3) # infer and plot the transition path
+st.plot_tensor(adata, adata_aggr,  basis = 'trans_coord',list_attractor = [0,1,2,3]) # plot the transition tensor components
+st.plot_top_genes(adata, top_genes = 10) # plot the U-S diagram of top genes with highest multi-stability score
 
 ```
