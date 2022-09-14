@@ -16,6 +16,7 @@ import scipy
 from numpy.linalg import inv
 from sklearn.mixture import GaussianMixture
 
+import networks as nw
 import pyemma.msm as msm
 
 import anndata
