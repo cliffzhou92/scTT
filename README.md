@@ -5,6 +5,9 @@ We present a single-cell transition tensor (scTT) method based on multi-stable a
 
 <img src="https://github.com/cliffzhou92/scTT/blob/main/img/figure_scheme.png" width="800">
 
+## Get Started
+Install the dependencies by ``pip install -r requirements.txt``
+
 ## Basic Usage
 ```python
 import sctt as st
